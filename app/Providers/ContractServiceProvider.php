@@ -22,8 +22,8 @@ class ContractServiceProvider extends ServiceProvider
         PostServiceContract::class           => PostService::class,
 
 
-        UserRepositoryContract::class    => UserRepository::class,
-        PostApiContract::class    => DummyJsonApi::class,
+        UserRepositoryContract::class        => UserRepository::class,
+        PostApiContract::class               => DummyJsonApi::class,
     ];
 
     /**

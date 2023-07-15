@@ -65,7 +65,7 @@ class PostService implements PostServiceContract
 
         return new LengthAwarePaginator(
             items: Arr::map($data['posts'], fn($item) => [
-                'id' => $item['id'],
+                'id'    => $item['id'],
                 'title' => $item['title'] ?? 'Запись с локальной БД (Отсутствует заголовок)'
             ]),
             total: $data['total'] + $this->postRepository->getNonExistingPostsCount($maxId),
