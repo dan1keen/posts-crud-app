@@ -12,7 +12,6 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    @vite('resources/js/app.js')
 </head>
 <body class="h-full">
 <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8" id="app">
